@@ -1,0 +1,17 @@
+{
+  "hosting": {
+	  "site": "minu1215-jenkins-vues",
+    "public": "dist",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ],
+    "rewrites": [
+      {
+        "source": "**",
+        "destination": "/index.html"
+      }
+    ]
+  }
+}
